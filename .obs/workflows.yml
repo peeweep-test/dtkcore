@@ -1,0 +1,33 @@
+pullrequest_check_build:
+  steps:
+    - link_package:
+        source_project: deepin:test:OBSTEST:SRC
+        source_package: dtkcommon
+        target_project: deepin:test:OBSTEST:CI
+    - configure_repositories:
+        project: deepin:test:OBSTEST:CI
+        repositories:
+          - name: Deepin_20_Test
+            paths:
+              - target_project: deepin:test:OBSTEST:SRC
+                target_repository: Deepin_20_Test
+            architectures:
+              - x86_64
+  filters:
+    event: pull_request
+
+rebuild_tag:
+  steps:
+    - trigger_services:
+        project: deepin:test:OBSTEST:TAG
+        package: dtkcommon
+  filters:
+    event: tag_push
+
+rebuild_push:
+  steps:
+    - trigger_services:
+        project: deepin:test:OBSTEST:SRC
+        package: dtkcommon
+  filters:
+    event: push

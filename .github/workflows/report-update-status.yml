@@ -1,0 +1,12 @@
+name: report update status
+on: status
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check state
+        run: |
+          echo "Status: ${{ github.event.state }}"
+          if [ "${{ github.event.state }}" != "success" ]; then
+            exit 1
+          fi

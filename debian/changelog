@@ -1,5 +1,12 @@
 dtkcore (5.6.12) jammy; urgency=medium
 
+  [ runner@fv-az399-150.xfxj3v4vhc3u1ao5qbfwj2dboa.bx.internal.cloudapp.net ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 07 Jun 2023 08:21:29 +0000
+
+dtkcore (5.6.12) jammy; urgency=medium
+
   [ runner@fv-az585-92.501l53qtsreu5c51wanflvb2vb.jx.internal.cloudapp.net ]
   * UNRELEASED
 

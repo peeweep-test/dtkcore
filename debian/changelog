@@ -3,6 +3,13 @@ dtkcore (6.0.2) unstable; urgency=medium
   [ Astrea ]
   * UNRELEASED
 
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 06 Jul 2023 15:54:51 +0800
+
+dtkcore (6.0.2) unstable; urgency=medium
+
+  [ Astrea ]
+  * UNRELEASED
+
  -- Deepin Packages Builder <packages@deepin.org>  Thu, 06 Jul 2023 15:14:34 +0800
 
 dtkcore (6.0.2) unstable; urgency=medium

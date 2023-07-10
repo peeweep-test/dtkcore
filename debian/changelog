@@ -1,3 +1,19 @@
+dtkcore (5.6.14) unstable; urgency=medium
+
+  * chore: function need to be marked as override
+  * chore: ignore doxygen-theme folder
+    Thanks to Skye-rs
+  * chore: change OUTPUT_DIR variable in cmake
+  * chore: remove unused pro files
+  * refactor!: deprecate some interfaces in dtk6
+  * fix: updateProp cannot convert to property type
+  * fix: typo in xdg
+  * chore: reduce compilation warnings
+    Thanks to SPUER(Issue: #96)
+  * chore(dcapmanager): RuntimeTime -> RuntimeDir
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 10 Jul 2023 20:39:22 +0800
+
 dtkcore (5.6.13) unstable; urgency=medium
 
   * feat: DConfig add check for no existed item when override

@@ -1,0 +1,10 @@
+name: call synchronize to dtk6
+on: [pull_request]
+
+jobs:
+  call-synchronize:
+    uses: peeweep-test/dtk/.github/workflows/synchronize-to-dtk6.yml@master
+    secrets: inherit
+    with:
+      dest_repo: peeweep-test/dtk6core
+      source_ref: ${{ github.event.pull_request.head.ref }}

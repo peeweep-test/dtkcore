@@ -8,3 +8,4 @@ jobs:
     with:
       dest_repo: peeweep-test/dtk6core
       source_ref: ${{ github.event.pull_request.head.ref }}
+      pull_number: ${{ github.event.pull_request.number }}

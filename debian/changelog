@@ -1,3 +1,11 @@
+dtkcore (5.6.28) unstable; urgency=medium
+
+  * feat: use doc check from dtk
+  * Create call-synchronize-to-dtk6.yml
+  * Delete docs directory
+
+ -- Yixue Wang <wangyixue@deepin.org>  Mon, 13 May 2024 17:42:47 +0800
+
 dtkcore (5.6.23) unstable; urgency=medium
 
   [ Astrea ]

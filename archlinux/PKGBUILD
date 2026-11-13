@@ -1,6 +1,6 @@
 # Maintainer: justforlxz <justforlxz@gmail.com>
 pkgname=dtkcore-git
-pkgver=6.8.0
+pkgver=6.8.1
 pkgrel=1
 sourcename=dtkcore
 sourcetars=("$sourcename"_"$pkgver".tar.xz)
